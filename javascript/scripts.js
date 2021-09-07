@@ -1,4 +1,4 @@
-$(document).ready(function(){
+ $(document).ready(function(){
     $("button#green").click(function(){
          $("body").removeClass();
          $("body").addClass("green-background");
@@ -12,7 +12,15 @@ $(document).ready(function(){
         $("body").removeClass();
         $("body").addClass("red-background");
     });
-    
+    $("button#white").click(function(){
+        $("body").removeClass();
+        $("body").addClass("white-mode");
+    });
+
+    $("button#black").click(function(){
+        $("body").removeClass();
+        $("body").addClass("dark-mode");
+    });
 });
 
 
