@@ -12,8 +12,13 @@ $(document).ready(function(){
         $("body").removeClass();
         $("body").addClass("red-background");
     });
-    
+    $("button#white").click(function(){
+        $("body").removeClass();
+        $("body").addClass("white-mode");
+    });
+
+    $("button#black").click(function(){
+        $("body").removeClass();
+        $("body").addClass("dark-mode");
+    });
 });
-
-
-  
